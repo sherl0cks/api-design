@@ -1473,4 +1473,16 @@ definitions:
         type: integer
         minimum: 100
         maximum: 600
+        
+  Hack:
+    type: object
+    properties:
+      a:
+        $ref: '#/definitions/PassthroughRoute'
+      b:
+        $ref: '#/definitions/Hack'
+      c:
+        $ref: '#/definitions/EdgeRoute'
+      d:
+        $ref: '#/definitions/ReencryptRoute'  
 
