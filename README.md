@@ -1,5 +1,5 @@
 # What Is In This Repository?
-This repository is home to the Automation API specification for Open Innovation Labs Push Button Infrastructure. Originally, it started as the home of all our Swagger / OpenAPI Specifications, System Designs and Documentation, but over time we've decided that we should have smaller, more discrete repos. The repository needs to be migrated to a new one to make the name more declarative.
+This repository is home to the Automation API specification for Open Innovation Labs Push Button Infrastructure. Originally, it started as the home of all our Swagger / OpenAPI Specifications, System Designs and Documentation, but over time this repository was repurposed to only contain the Automation API Specifications. This was after deciding that we should have smaller, more discrete repos. This repository needs to be migrated to a new one to make the name more declarative.
 
 # What is Push Button Infrastructure (PBI)?
 
@@ -22,7 +22,7 @@ Here's how those contexts look graphically:
 
 # Using the Automation API
 
-The current architectural direction for PBI is that the Automation API will be a verbose contract i.e. we'll favor completeness over convention or brevity. This decision was made because the additional detail removes guess work about the desired state when implementing an Automation Engine. However; this can make writing documents in the Automation API schema more laborious. To lower the bar of entry to our ecosystem, we're building a graphical interface using a contract that favors strong conventions and brevity. This new UI, called the labs console, will be able to generate Automation API documents from it's terse model, thus allowing the labs console to drive Automation Engines. The labs console is still to early to consume at this stage, so the below example will walk you through writing a document in the Automation API model directly.
+The current architectural direction for PBI is that the Automation API will be a verbose contract (i.e. we'll favor completeness over convention or brevity). This decision was made because the additional detail removes guess work about the desired state when implementing an Automation Engine. However; this can make writing documents in the Automation API schema more laborious. To lower the bar of entry to our ecosystem, we're building a graphical interface using a contract that favors strong conventions and brevity. This new UI, called the Labs Console, will be able to generate Automation API documents from its terse model, thus allowing the Labs Console to drive Automation Engines. The Labs Console is still too early to consume at this stage, so the below example will walk you through writing a document in the Automation API model directly.
 
 ## Writing An Automation API Document By Hand: An Example
 
