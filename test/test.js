@@ -21,4 +21,3 @@ describe('Validate Swagger Spec', function () {
         });
     });
 });
-
