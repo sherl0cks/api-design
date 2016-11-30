@@ -11,5 +11,5 @@ fi
 rm -rf target/spring-server/
 java -jar swagger-codegen-cli.jar generate -l spring -i ../swagger.yaml -c spring-server-config.json -o target/spring-server/
 cd target/spring-server/
-mvn clean install
+$1/bin/mvn clean install
 cd ../..
