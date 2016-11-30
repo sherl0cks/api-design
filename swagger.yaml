@@ -34,9 +34,6 @@ paths:
       responses:
         "405":
           description: Invalid input
-      goo:
-        "hi"
-       
     get:
       tags:
       - customer
