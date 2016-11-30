@@ -10,3 +10,6 @@ fi
 
 rm -rf target/java-client/
 java -jar swagger-codegen-cli.jar generate -l java -i ../swagger.yaml -c java-client-config.json -o target/java-client/
+cd target/java-client/
+mvn clean install
+cd ../..
